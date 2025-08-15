@@ -1,12 +1,12 @@
 {
-"name": "web-pair",
+"name": "chamidu-pair",
     "version": "0.0.1",
     "description": "A multi functional whatsapp bot Web paircode.",
     "main": "index.js",
     "scripts": {
-      "start": "pm2 start index.js --deep-monitoring --attach --name prabath",
-      "stop": "pm2 stop prabath",
-     "restart": "pm2 restart prabath"
+      "start": "pm2 start index.js --deep-monitoring --attach --name chamidu",
+      "stop": "pm2 stop chamidu",
+     "restart": "pm2 restart chamidu"
     },
   "dependencies": {
     "@whiskeysockets/baileys": "6.6.0",
